@@ -567,6 +567,7 @@ produc__tags {
 .team-members {
   display: flex;
   justify-content: center; /* Выравнивание участников команды по горизонтали */
+  width: 100%;
 }
 
 .team-member {
@@ -576,8 +577,8 @@ produc__tags {
 }
 
 .team-member img {
-  width: 400px; /* Ширина фото участника */
-  height: 400px; /* Высота фото участника */
+  width: 300px; /* Ширина фото участника */
+  height: 300px; /* Высота фото участника */
   object-fit: cover; /* Масштабирование фото для заполнения области */
 }
 
